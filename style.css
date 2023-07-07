@@ -18,7 +18,8 @@ body{
     gap: 20px;
 }
 .flex > div{
-    width: 420px;
+    min-width: 420px;
+    max-width: 100%;
 }
 .mb-2{
     margin-bottom: 15px;
