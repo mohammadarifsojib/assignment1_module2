@@ -1,0 +1,36 @@
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box
+}
+body{
+    font-size: 20px;
+    line-height: 24px;
+}
+.container{
+    width: 95%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.flex{
+    display: flex;
+    gap: 20px;
+}
+.justify-content-between{
+    justify-content: space-between;
+}
+.mb-2{
+    margin-bottom: 15px;
+}
+.mb-5{
+    margin-bottom: 35px;
+}
+.main-heading{
+    padding: 20px 0;
+    text-align: center;
+}
+.box{
+    border: 1px solid #ddd;
+    padding: 15px;
+    width: 19%;
+}
