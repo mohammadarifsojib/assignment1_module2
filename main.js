@@ -34,7 +34,7 @@ const multiply = (a, b) => a * b
 document.getElementById('ex-5').innerHTML = `<b>Result:</b> const multiply = (a, b) => a * b`
 
 // Exercise 6:
-const getLargestNumber = (num1, num2) => ( num1 > num2 || num2 > num1 ) ? num1 : num2
+const getLargestNumber = (num1, num2) => ( num1 > num2 && num1 ) || (num2 > num1 && num2)
 document.getElementById('ex-6').innerHTML = `<b>Result:</b> ${getLargestNumber(10, 5)}`
 
 //Exercise 7:
